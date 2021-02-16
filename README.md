@@ -1,21 +1,28 @@
-# Machine Learning with Python3 
+# Machine Learning with PyTorch
 
 ## Introduction 
 
 This repository contains a collection of Jupyter Notebook tutorials on machine learning with Python 3.   
 
-The notes are written based on [Pattern Recognition and Machine Learning, Christopher Bishop](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/).
+Notes are written in a rigorous fashion. As a mathematician, ambiguity is intolerable. 
 
-Example problems are taken from either [Leetcode](https://leetcode.com/) or [Introduction to Algorithms, 3rd](https://mitpress.mit.edu/books/introduction-algorithms-third-edition).
 
-This repository is great for those who are learning data structures for the first time and those who want to review data structures or those who want to learn data structures in Python3. 
+
 
 All content is created by myself. However, pobody's nerfect. Feel free to point out any mistakes or suggest any improvements ;)
 
 ## Contents
 
-TBD.
+- Linear Algebra and Matrix Calculus Review
+- Probability and Statistics Review
+- 
+- Regression
+- Classification
 
+-
+- Variational Inference
+- Sampling Methods
+	- 
 ## Dependencies
 
 Python 3.8.5
@@ -24,10 +31,12 @@ Anaconda 4.9.2
 
 ## Jupyter Notebook Settings 
 
+Please use a dark theme in order to view images in the notebooks as the images are created using colors most suitable for a dark background.  
+
 The basic Jupyter Notebook is neither efficient nor easy on the eyes. Below are what I do to improve both. 
 
 ### Jupyter Themes 
-My favorite Jupyter Notebook theme is from [jupyterthemes](https://github.com/dunovank/jupyter-themes):
+My favorite Jupyter Notebook theme is from [jupyterthemes by dunovank](https://github.com/dunovank/jupyter-themes):
 
 Step 1: install jupyterthemes 
 
@@ -46,6 +55,19 @@ and enabling the following nbextensions:
 - Collapsible Headings
 - Equation Auto Numbering 
 - Codefolding 
+- LaTeX environment for Jupyter 
+- Load TeX macros (see ``latexdefs.tex`` for details)
+- 
+
+## References
+
+### Machine Learning 
+- [Pattern Recognition and Machine Learning by Christopher Bishop](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/).
+- [The Elements of Statistical Learning(2nd Edition) by Hastie, Tibshirani, &amp; Friedman](https://web.stanford.edu/~hastie/ElemStatLearn/).
+
+### Mathematics
+
+- [Linear Algebra and Its Applications(4th Edition) by Strang](https://www.cengage.com/c/linear-algebra-and-its-applications-4e-strang/9780030105678/)
 
 
 
